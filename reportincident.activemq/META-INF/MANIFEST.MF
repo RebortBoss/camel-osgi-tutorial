@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Built-By: charlesmoulliard
+Tool: Bnd-0.0.357
+Bundle-Name: Reportincident :: ActiveMQ Queuing Engine
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_22
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1289041125368
+Spring-Context: *;publish-context:=false;create-asynchronously:=true
+Bundle-ManifestVersion: 2
+Import-Package: javax.transaction,org.apache.activemq,org.apache.activ
+ emq.pool,org.springframework.beans.factory.config
+Bundle-SymbolicName: reportincident-activemq
+

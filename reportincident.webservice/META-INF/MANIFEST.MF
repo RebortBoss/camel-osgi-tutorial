@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.camel.example.reportincident;uses:="javax.x
+ ml.bind.annotation,javax.xml.bind,javax.xml.namespace,javax.jws.soap,
+ javax.jws,javax.xml.ws",META-INF.wsdl
+Built-By: charlesmoulliard
+Build-Jdk: 1.6.0_22
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bnd-0.0.357
+Bundle-Name: Reportincident :: Webservice Bundle
+Bnd-LastModified: 1289041886302
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: reportincident-webservice
+Import-Package: META-INF.wsdl,javax.jws;version="2.0",javax.jws.soap;v
+ ersion="2.0",javax.xml.bind,javax.xml.bind.annotation,javax.xml.names
+ pace,javax.xml.ws;version="2.1",org.aopalliance.aop,org.apache.camel.
+ example.reportincident,org.apache.camel.example.reportincident.dao,or
+ g.springframework.aop,org.springframework.aop.framework,org.springfra
+ mework.transaction,org.springframework.transaction.interceptor
+

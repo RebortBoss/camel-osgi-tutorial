@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Built-By: charlesmoulliard
+Build-Jdk: 1.6.0_22
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bnd-0.0.357
+Bundle-Name: Reportincident :: Routing Bundle
+Bnd-LastModified: 1289041873953
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: reportincident-routing
+Import-Package: META-INF.cxf,META-INF.cxf.osgi,META-INF.wsdl,org.apach
+ e.activemq.camel.component;version="[5.3,5.5)",org.apache.activemq.ca
+ mel.converter;version="[5.3,5.5)",org.apache.activemq.pool;version="5
+ .4",org.apache.camel;version="[2.0,2.6)",org.apache.camel.component;v
+ ersion="[2.0,2.6)",org.apache.camel.component.cxf;version="[2.0,2.6)"
+ ,org.apache.camel.component.cxf.converter;version="[2.0,2.6)",org.apa
+ che.camel.component.jms;version="[2.0,2.6)",org.apache.camel.converte
+ r;version="[2.0,2.6)",org.apache.camel.converter.jaxp;version="[2.0,2
+ .6)",org.apache.camel.converter.stream;version="[2.0,2.6)",org.apache
+ .camel.dataformat.bindy;version="[2.0,2.6)",org.apache.camel.dataform
+ at.bindy.csv;version="[2.0,2.6)",org.apache.camel.example.reportincid
+ ent,org.apache.camel.example.reportincident.model,org.apache.camel.ex
+ ample.reportincident.service;version="1.0",org.apache.camel.processor
+ ;version="[2.0,2.6)",org.apache.commons.logging,org.apache.cxf;versio
+ n="2.2",org.apache.cxf.binding;version="2.2",org.apache.cxf.binding.c
+ orba;version="2.2",org.apache.cxf.binding.soap;version="2.2",org.apac
+ he.cxf.binding.soap.spring;version="2.2",org.apache.cxf.bus;version="
+ 2.2",org.apache.cxf.bus.resource;version="2.2",org.apache.cxf.bus.spr
+ ing;version="2.2",org.apache.cxf.buslifecycle;version="2.2",org.apach
+ e.cxf.catalog;version="2.2",org.apache.cxf.configuration;version="2.2
+ ",org.apache.cxf.configuration.spring;version="2.2",org.apache.cxf.en
+ dpoint;version="2.2",org.apache.cxf.headers;version="2.2",org.apache.
+ cxf.management;version="2.2",org.apache.cxf.management.jmx;version="2
+ .2",org.apache.cxf.phase;version="2.2",org.apache.cxf.resource;versio
+ n="2.2",org.apache.cxf.transport;version="2.2",org.apache.cxf.transpo
+ rt.http;version="2.2",org.apache.cxf.transport.http.policy;version="2
+ .2",org.apache.cxf.transport.http_jetty;version="2.2",org.apache.cxf.
+ transport.http_osgi;version="2.2",org.apache.cxf.transport.jms;versio
+ n="2.2",org.apache.cxf.transports.http;version="2.2",org.apache.cxf.w
+ orkqueue;version="2.2",org.apache.cxf.wsdl;version="2.2",org.apache.c
+ xf.wsdl11;version="2.2",org.springframework.beans.factory.config;vers
+ ion="2.5"
+
